@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SQL Learning Hub</title>
+
+<link rel="stylesheet" href="../css/style.css">
+
+<style>
+
+.learning-container{
+    max-width:1000px;
+    margin:auto;
+    padding:40px;
+}
+
+.topic-card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    margin-bottom:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.topic-card h2{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.resource-btn{
+    display:inline-block;
+    padding:10px 20px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    margin-top:10px;
+}
+
+.quiz-box{
+    background:#eff6ff;
+    padding:20px;
+    border-radius:15px;
+    margin-top:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="learning-container">
+
+<h1>🗄 SQL Learning Hub</h1>
+
+<p>
+SQL (Structured Query Language) is used to store, manage and analyze data in databases.
+Every Data Analyst must know SQL.
+</p>
+
+<br>
+
+<div class="topic-card">
+
+<h2>1. SELECT Statement</h2>
+
+<p>
+Used to retrieve data from a table.
+</p>
+
+<pre>
+SELECT * FROM Employees;
+</pre>
+
+</div>
+
+<div class="topic-card">
+
+<h2>2. WHERE Clause</h2>
+
+<p>
+Used to filter records.
+</p>
+
+<pre>
+SELECT * FROM Employees
+WHERE Salary > 50000;
+</pre>
+
+</div>
+
+<div class="topic-card">
+
+<h2>3. GROUP BY</h2>
+
+<p>
+Used to group rows with similar values.
+</p>
+
+<pre>
+SELECT Department,
+COUNT(*)
+FROM Employees
+GROUP BY Department;
+</pre>
+
+</div>
+
+<div class="topic-card">
+
+<h2>4. JOINS</h2>
+
+<p>
+Used to combine data from multiple tables.
+</p>
+
+<pre>
+SELECT *
+FROM Orders
+JOIN Customers
+ON Orders.CustomerID =
+Customers.CustomerID;
+</pre>
+
+</div>
+
+<div class="topic-card">
+
+<h2>Recommended Resources</h2>
+
+<ul>
+
+<li>SQLBolt</li>
+
+<li>W3Schools SQL</li>
+
+<li>LeetCode SQL</li>
+
+<li>HackerRank SQL</li>
+
+</ul>
+
+</div>
+
+<h2>Learning Actions</h2>
+
+<a
+href="https://www.youtube.com/results?search_query=sql+tutorial"
+target="_blank"
+class="learning-btn">
+
+<br><br>
+
+<button
+class="learning-btn"
+onclick="completeSkill('sql')">
+
+🏅 Mark SQL as Completed
+
+</button>
+
+<script src="../js/script.js"></script>
+▶ Watch SQL Tutorials
+</a>
+
+<a
+href="https://leetcode.com/problemset/database/"
+target="_blank"
+class="learning-btn">
+💻 Practice SQL
+</a>
+<div class="quiz-box">
+
+<h2>Mini Practice Task</h2>
+
+<p>
+Find the top 5 highest paid employees from an Employee table.
+</p>
+
+<p>
+Try writing the SQL query yourself.
+</p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

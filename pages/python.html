@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Python Learning Hub</title>
+
+<link rel="stylesheet" href="../css/style.css">
+
+<style>
+
+.learning-container{
+max-width:1000px;
+margin:auto;
+padding:40px;
+}
+
+.topic-card{
+background:white;
+padding:25px;
+border-radius:15px;
+margin-bottom:20px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.topic-card h2{
+color:#2563eb;
+margin-bottom:10px;
+}
+
+.quiz-box{
+background:#eff6ff;
+padding:20px;
+border-radius:15px;
+margin-top:20px;
+}
+
+pre{
+background:#f4f4f4;
+padding:10px;
+border-radius:10px;
+overflow:auto;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="learning-container">
+
+<h1>🐍 Python Learning Hub</h1>
+
+<p>
+Python is one of the most important programming languages for Data Analysts.
+It is used for data cleaning, analysis, visualization and automation.
+</p>
+
+<br>
+
+<div class="topic-card">
+
+<h2>1. Variables</h2>
+
+<p>Variables store data values.</p>
+
+<pre>
+name = "Pavani"
+age = 22
+</pre>
+
+</div>
+
+<div class="topic-card">
+
+<h2>2. Loops</h2>
+
+<p>Loops help repeat tasks.</p>
+
+<pre>
+for i in range(5):
+    print(i)
+</pre>
+
+</div>
+
+<div class="topic-card">
+
+<h2>3. Functions</h2>
+
+<p>Functions help organize code.</p>
+
+<pre>
+def greet():
+    print("Hello")
+
+greet()
+</pre>
+
+</div>
+
+<div class="topic-card">
+
+<h2>4. Pandas</h2>
+
+<p>
+Pandas is used for data analysis and data cleaning.
+</p>
+
+<pre>
+import pandas as pd
+
+df = pd.read_csv("sales.csv")
+print(df.head())
+</pre>
+
+</div>
+
+<div class="topic-card">
+
+<h2>5. Matplotlib</h2>
+
+<p>
+Matplotlib is used for data visualization.
+</p>
+
+<pre>
+import matplotlib.pyplot as plt
+
+plt.plot([1,2,3],[10,20,30])
+plt.show()
+</pre>
+
+</div>
+
+<div class="topic-card">
+
+<h2>Recommended Resources</h2>
+
+<ul>
+
+<li>Python.org</li>
+
+<li>W3Schools Python</li>
+
+<li>Kaggle Learn</li>
+
+<li>FreeCodeCamp Python</li>
+
+</ul>
+
+</div>
+
+<h2>Learning Actions</h2>
+
+<a
+href="https://www.youtube.com/results?search_query=python+for+data+analysis"
+target="_blank"
+class="learning-btn">
+
+<br><br>
+
+<button
+class="learning-btn"
+onclick="completeSkill('python')">
+
+🏅 Mark Python as Completed
+
+</button>
+
+<script src="../js/script.js"></script>
+▶ Watch Python Tutorials
+</a>
+
+<a
+href="https://www.kaggle.com/learn"
+target="_blank"
+class="learning-btn">
+💻 Practice Python
+</a>
+<div class="quiz-box">
+
+<h2>Mini Practice Task</h2>
+
+<p>
+Create a Python script that reads a CSV file and displays the first 10 rows.
+</p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

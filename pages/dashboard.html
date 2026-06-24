@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dashboard</title>
+
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+<div class="dashboard-container">
+
+<!-- Sidebar -->
+
+<div class="sidebar">
+
+<h2>🚀 Career Hub</h2>
+
+<a href="../index.html">🏠 Home</a>
+
+<a href="data-analyst.html">📊 Roadmap</a>
+
+<a href="career-quiz.html">🎯 Career Quiz</a>
+
+<a href="career-tree.html">🌳 Career Tree</a>
+
+<a href="resources.html">📚 Resources</a>
+
+<a href="ai-career.html">🤖 AI Career</a>
+
+<a href="certificates.html">🏆 Certificates</a>
+
+<a href="about.html">ℹ About</a>
+
+</div>
+
+<!-- Main Content -->
+
+<div class="main-content">
+
+<h1>📈 My Dashboard</h1>
+
+<h3 class="score" id="readinessScore">
+Career Readiness Score: 0%
+</h3>
+
+<button id="darkModeBtn">
+🌙 Toggle Dark Mode
+</button>
+
+<br><br>
+
+<input
+type="text"
+id="searchBox"
+placeholder="Search Skills..."
+>
+
+<br><br>
+
+<!-- Stats -->
+
+<div class="stats-container">
+
+<div class="stat-card">
+<h2>5</h2>
+<p>Total Skills</p>
+</div>
+
+<div class="stat-card">
+<h2 id="completedCount">0</h2>
+<p>Completed Skills</p>
+</div>
+
+<div class="stat-card">
+<h2>12</h2>
+<p>Certifications</p>
+</div>
+
+<div class="stat-card">
+<h2>100+</h2>
+<p>Resources</p>
+</div>
+
+</div>
+
+<!-- Skills -->
+
+<div class="skills-section">
+
+<label class="skill-item">
+
+<input
+type="checkbox"
+class="skill-check"
+id="excelCheck">
+
+📗 Excel
+
+</label>
+
+<label class="skill-item">
+
+<input
+type="checkbox"
+class="skill-check"
+id="sqlCheck">
+
+🗄 SQL
+
+</label>
+
+<label class="skill-item">
+
+<input
+type="checkbox"
+class="skill-check"
+id="pythonCheck">
+
+🐍 Python
+
+</label>
+
+<label class="skill-item">
+
+<input
+type="checkbox"
+class="skill-check"
+id="statisticsCheck">
+
+📈 Statistics
+
+</label>
+
+<label class="skill-item">
+
+<input
+type="checkbox"
+class="skill-check"
+id="powerbiCheck">
+
+📊 Power BI
+
+</label>
+
+</div>
+
+<!-- Progress -->
+
+<div class="progress-container">
+
+<div
+class="progress-bar"
+id="progressBar">
+</div>
+
+</div>
+
+<h3 id="progressText">
+Progress : 0%
+</h3>
+
+<!-- Achievements -->
+
+<div class="achievement-box">
+
+<h2>🏆 Achievements</h2>
+
+<ul id="achievementList">
+
+<li>Start Your Journey</li>
+
+</ul>
+
+</div>
+
+<!-- Recent Activity -->
+
+<div class="achievement-box">
+
+<h2>📌 Recent Activity</h2>
+
+<ul>
+
+<li>Started Career Roadmap</li>
+
+<li>Visited Dashboard</li>
+
+<li>Explored Learning Resources</li>
+
+<li>Took Career Quiz</li>
+
+</ul>
+
+</div>
+
+<!-- Learning Streak -->
+
+<div class="achievement-box">
+
+<h2>🔥 Learning Streak</h2>
+
+<p>
+
+Current Streak:
+<strong>5 Days</strong>
+
+</p>
+
+<p>
+
+Keep learning daily to improve your career readiness.
+
+</p>
+
+</div>
+
+<!-- Next Goal -->
+
+<div class="achievement-box">
+
+<h2>🎯 Next Goal</h2>
+
+<p>
+
+Complete SQL Learning Path and mark it as completed.
+
+</p>
+
+</div>
+
+<!-- Motivation -->
+
+<div class="achievement-box">
+
+<h2>💡 Quote of the Day</h2>
+
+<p>
+
+"Success is the sum of small efforts repeated day in and day out."
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="../js/script.js"></script>
+
+</body>
+
+</html>
